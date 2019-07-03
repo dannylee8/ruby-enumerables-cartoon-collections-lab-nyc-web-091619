@@ -8,7 +8,7 @@ def roll_call_dwarves(dwarfs)
     namehash[index] = puts "#{index} #{name}"
     }
     binding.pry
-  puts namehash
+  namehash
 end
 
 def summon_captain_planet# code an argument here
