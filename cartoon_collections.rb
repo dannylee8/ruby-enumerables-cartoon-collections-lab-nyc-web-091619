@@ -1,10 +1,10 @@
 require 'pry'
 
 def roll_call_dwarves(dwarfs)
-  # Your code here
+
   dwarfs.each_with_index { |name, index| 
     binding.pry
-    puts "#{index} #{name}"
+    p "#{index} #{name}"
   }
 end
 
