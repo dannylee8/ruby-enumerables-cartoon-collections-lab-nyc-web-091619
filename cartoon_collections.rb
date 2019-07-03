@@ -7,7 +7,6 @@ def roll_call_dwarves(dwarfs)
     binding.pry
     namehash[index] = puts "#{index+1}. #{name}"
     }
-
   namehash
 end
 
