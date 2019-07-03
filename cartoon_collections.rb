@@ -1,7 +1,8 @@
 require 'pry'
 
 def roll_call_dwarves(dwarfs)
-
+  namehash = {}
+  
   dwarfs.each_with_index { |name, index| 
     '#{index} #{name}'
   }
