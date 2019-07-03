@@ -4,7 +4,7 @@ def roll_call_dwarves(dwarfs)
 
   dwarfs.each_with_index { |name, index| 
     binding.pry
-    p "#{index} #{name}"
+    p '#{index} #{name}'
   }
 end
 
