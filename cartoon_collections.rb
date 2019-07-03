@@ -4,9 +4,9 @@ def roll_call_dwarves(dwarfs)
   namehash = {}
   
   dwarfs.each_with_index { |name, index| 
-    namehash[index] = p "#{index} #{name}"
+    namehash[index] = puts "#{index} #{name}"
     }
-  p namehash
+  puts namehash
 end
 
 def summon_captain_planet# code an argument here
