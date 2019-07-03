@@ -4,7 +4,7 @@ def roll_call_dwarves(dwarfs)
   namehash = []
       
   dwarfs.each_with_index { |name, index| 
-    namehash[index] = puts "#{index+1}. #{name}" binding.pry
+    namehash[index] = puts "#{index+1}. #{name}" 
     }
   namehash
 end
